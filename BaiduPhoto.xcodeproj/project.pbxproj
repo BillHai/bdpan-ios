@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6300220183AFE5200D0C947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F630021F183AFE5200D0C947 /* Foundation.framework */; };
+		F6300222183AFE5200D0C947 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6300221183AFE5200D0C947 /* CoreGraphics.framework */; };
+		F6300224183AFE5200D0C947 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6300223183AFE5200D0C947 /* UIKit.framework */; };
+		F630022A183AFE5200D0C947 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6300228183AFE5200D0C947 /* InfoPlist.strings */; };
+		F630022C183AFE5200D0C947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F630022B183AFE5200D0C947 /* main.m */; };
+		F6300230183AFE5200D0C947 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F630022F183AFE5200D0C947 /* ZYAppDelegate.m */; };
+		F6300232183AFE5200D0C947 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6300231183AFE5200D0C947 /* Images.xcassets */; };
+		F6300239183AFE5200D0C947 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6300238183AFE5200D0C947 /* XCTest.framework */; };
+		F630023A183AFE5200D0C947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F630021F183AFE5200D0C947 /* Foundation.framework */; };
+		F630023B183AFE5200D0C947 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6300223183AFE5200D0C947 /* UIKit.framework */; };
+		F6300243183AFE5200D0C947 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6300241183AFE5200D0C947 /* InfoPlist.strings */; };
+		F6300245183AFE5200D0C947 /* BaiduPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6300244183AFE5200D0C947 /* BaiduPhotoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F630023C183AFE5200D0C947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6300214183AFE5200D0C947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F630021B183AFE5200D0C947;
+			remoteInfo = BaiduPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F630021C183AFE5200D0C947 /* BaiduPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F630021F183AFE5200D0C947 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6300221183AFE5200D0C947 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6300223183AFE5200D0C947 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6300227183AFE5200D0C947 /* BaiduPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaiduPhoto-Info.plist"; sourceTree = "<group>"; };
+		F6300229183AFE5200D0C947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F630022B183AFE5200D0C947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F630022D183AFE5200D0C947 /* BaiduPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiduPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		F630022E183AFE5200D0C947 /* ZYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
+		F630022F183AFE5200D0C947 /* ZYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
+		F6300231183AFE5200D0C947 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6300237183AFE5200D0C947 /* BaiduPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6300238183AFE5200D0C947 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6300240183AFE5200D0C947 /* BaiduPhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaiduPhotoTests-Info.plist"; sourceTree = "<group>"; };
+		F6300242183AFE5200D0C947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6300244183AFE5200D0C947 /* BaiduPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduPhotoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6300219183AFE5200D0C947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6300222183AFE5200D0C947 /* CoreGraphics.framework in Frameworks */,
+				F6300224183AFE5200D0C947 /* UIKit.framework in Frameworks */,
+				F6300220183AFE5200D0C947 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6300234183AFE5200D0C947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6300239183AFE5200D0C947 /* XCTest.framework in Frameworks */,
+				F630023B183AFE5200D0C947 /* UIKit.framework in Frameworks */,
+				F630023A183AFE5200D0C947 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6300213183AFE5200D0C947 = {
+			isa = PBXGroup;
+			children = (
+				F6300225183AFE5200D0C947 /* BaiduPhoto */,
+				F630023E183AFE5200D0C947 /* BaiduPhotoTests */,
+				F630021E183AFE5200D0C947 /* Frameworks */,
+				F630021D183AFE5200D0C947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F630021D183AFE5200D0C947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F630021C183AFE5200D0C947 /* BaiduPhoto.app */,
+				F6300237183AFE5200D0C947 /* BaiduPhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F630021E183AFE5200D0C947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F630021F183AFE5200D0C947 /* Foundation.framework */,
+				F6300221183AFE5200D0C947 /* CoreGraphics.framework */,
+				F6300223183AFE5200D0C947 /* UIKit.framework */,
+				F6300238183AFE5200D0C947 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6300225183AFE5200D0C947 /* BaiduPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				F630022E183AFE5200D0C947 /* ZYAppDelegate.h */,
+				F630022F183AFE5200D0C947 /* ZYAppDelegate.m */,
+				F6300231183AFE5200D0C947 /* Images.xcassets */,
+				F6300226183AFE5200D0C947 /* Supporting Files */,
+			);
+			path = BaiduPhoto;
+			sourceTree = "<group>";
+		};
+		F6300226183AFE5200D0C947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6300227183AFE5200D0C947 /* BaiduPhoto-Info.plist */,
+				F6300228183AFE5200D0C947 /* InfoPlist.strings */,
+				F630022B183AFE5200D0C947 /* main.m */,
+				F630022D183AFE5200D0C947 /* BaiduPhoto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F630023E183AFE5200D0C947 /* BaiduPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6300244183AFE5200D0C947 /* BaiduPhotoTests.m */,
+				F630023F183AFE5200D0C947 /* Supporting Files */,
+			);
+			path = BaiduPhotoTests;
+			sourceTree = "<group>";
+		};
+		F630023F183AFE5200D0C947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6300240183AFE5200D0C947 /* BaiduPhotoTests-Info.plist */,
+				F6300241183AFE5200D0C947 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F630021B183AFE5200D0C947 /* BaiduPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6300248183AFE5200D0C947 /* Build configuration list for PBXNativeTarget "BaiduPhoto" */;
+			buildPhases = (
+				F6300218183AFE5200D0C947 /* Sources */,
+				F6300219183AFE5200D0C947 /* Frameworks */,
+				F630021A183AFE5200D0C947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduPhoto;
+			productName = BaiduPhoto;
+			productReference = F630021C183AFE5200D0C947 /* BaiduPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6300236183AFE5200D0C947 /* BaiduPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F630024B183AFE5200D0C947 /* Build configuration list for PBXNativeTarget "BaiduPhotoTests" */;
+			buildPhases = (
+				F6300233183AFE5200D0C947 /* Sources */,
+				F6300234183AFE5200D0C947 /* Frameworks */,
+				F6300235183AFE5200D0C947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F630023D183AFE5200D0C947 /* PBXTargetDependency */,
+			);
+			name = BaiduPhotoTests;
+			productName = BaiduPhotoTests;
+			productReference = F6300237183AFE5200D0C947 /* BaiduPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6300214183AFE5200D0C947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ziyisoft;
+				TargetAttributes = {
+					F6300236183AFE5200D0C947 = {
+						TestTargetID = F630021B183AFE5200D0C947;
+					};
+				};
+			};
+			buildConfigurationList = F6300217183AFE5200D0C947 /* Build configuration list for PBXProject "BaiduPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6300213183AFE5200D0C947;
+			productRefGroup = F630021D183AFE5200D0C947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F630021B183AFE5200D0C947 /* BaiduPhoto */,
+				F6300236183AFE5200D0C947 /* BaiduPhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F630021A183AFE5200D0C947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F630022A183AFE5200D0C947 /* InfoPlist.strings in Resources */,
+				F6300232183AFE5200D0C947 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6300235183AFE5200D0C947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6300243183AFE5200D0C947 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6300218183AFE5200D0C947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F630022C183AFE5200D0C947 /* main.m in Sources */,
+				F6300230183AFE5200D0C947 /* ZYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6300233183AFE5200D0C947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6300245183AFE5200D0C947 /* BaiduPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F630023D183AFE5200D0C947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F630021B183AFE5200D0C947 /* BaiduPhoto */;
+			targetProxy = F630023C183AFE5200D0C947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6300228183AFE5200D0C947 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6300229183AFE5200D0C947 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6300241183AFE5200D0C947 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6300242183AFE5200D0C947 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6300246183AFE5200D0C947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6300247183AFE5200D0C947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6300249183AFE5200D0C947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduPhoto/BaiduPhoto-Prefix.pch";
+				INFOPLIST_FILE = "BaiduPhoto/BaiduPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F630024A183AFE5200D0C947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduPhoto/BaiduPhoto-Prefix.pch";
+				INFOPLIST_FILE = "BaiduPhoto/BaiduPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F630024C183AFE5200D0C947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BaiduPhoto.app/BaiduPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduPhoto/BaiduPhoto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BaiduPhotoTests/BaiduPhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F630024D183AFE5200D0C947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BaiduPhoto.app/BaiduPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduPhoto/BaiduPhoto-Prefix.pch";
+				INFOPLIST_FILE = "BaiduPhotoTests/BaiduPhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6300217183AFE5200D0C947 /* Build configuration list for PBXProject "BaiduPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6300246183AFE5200D0C947 /* Debug */,
+				F6300247183AFE5200D0C947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6300248183AFE5200D0C947 /* Build configuration list for PBXNativeTarget "BaiduPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6300249183AFE5200D0C947 /* Debug */,
+				F630024A183AFE5200D0C947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F630024B183AFE5200D0C947 /* Build configuration list for PBXNativeTarget "BaiduPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F630024C183AFE5200D0C947 /* Debug */,
+				F630024D183AFE5200D0C947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6300214183AFE5200D0C947 /* Project object */;
+}
